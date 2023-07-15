@@ -1,5 +1,11 @@
 import './App.css';
 
+import { MuiTypography } from './components/MuiTypography';
+
 export const App = () => {
-    return <div className='App'>app</div>;
+    return (
+        <div className='App'>
+            <MuiTypography />
+        </div>
+    );
 };
